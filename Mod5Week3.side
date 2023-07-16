@@ -1,0 +1,508 @@
+{
+  "id": "b11db038-97c5-4a63-9053-38df6df235d2",
+  "version": "2.0",
+  "name": "Mod5Week3",
+  "url": "https://demo.automationtesting.in/Index.html",
+  "tests": [{
+    "id": "e1108024-7f51-416b-adf2-1a523b295096",
+    "name": "TC1 - Adiciona Item no Carrinho",
+    "commands": [{
+      "id": "06051f52-4431-48b4-a4f8-45762929e101",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.automationtesting.in/Index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a76403a6-5282-46d8-a701-011cb171587a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "531x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a769e60-b595-4bb8-a3ee-be4a2da34575",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn2",
+      "targets": [
+        ["id=btn2", "id"],
+        ["css=#btn2", "css:finder"],
+        ["xpath=//button[@id='btn2']", "xpath:attributes"],
+        ["xpath=//div[@id='abcd']/a[2]/button", "xpath:idRelative"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Skip Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "209a7bc6-7067-4a56-a41f-e8bdf3ecdf39",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Toggle Navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92295a32-8f6c-4dae-82c8-e73f1f44be86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Toggle Navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "281af8fa-8a36-44b2-be5f-e59ce03bcae0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Toggle Navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53a2d2fc-1bba-4751-95de-48c226d90274",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02a9eca9-07d4-4c5b-822a-d2f2e0782332",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Practice Site",
+      "targets": [
+        ["linkText=Practice Site", "linkText"],
+        ["css=.nav > li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Practice Site')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/']", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Practice Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab660dd2-d51a-488e-becf-5dec5a599dae",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,267.20001220703125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efaa4fff-0abf-413b-902a-e70635502a17",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,622.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2c8a204-97ac-4dca-8759-cb8638bbc42f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,967.2000122070312)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8c972e5-9e1e-4c62-b472-49c47debe8b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-160 > .button",
+      "targets": [
+        ["css=.post-160 > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to basket')]", "xpath:link"],
+        ["xpath=//div[@id='text-22-sub_row_1-0-2-0-0']/div/ul/li/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/?add-to-cart=160')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e7970dc-9d8b-4171-a113-8f8d9e82b1c1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3de58681-7d07-445d-891c-a85032053f1e",
+    "name": "TC2 - Verifica Item no carrinho",
+    "commands": [{
+      "id": "89491de7-2653-4d25-adec-4369b3b0c7fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.automationtesting.in/Index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3916dc9a-7d7d-4bbc-95f1-c43898d410a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "531x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ea43db5-e058-4418-9738-b5443130ef1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn2",
+      "targets": [
+        ["id=btn2", "id"],
+        ["css=#btn2", "css:finder"],
+        ["xpath=//button[@id='btn2']", "xpath:attributes"],
+        ["xpath=//div[@id='abcd']/a[2]/button", "xpath:idRelative"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Skip Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1434b23-fad1-4498-9a78-a63ba2149b4f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Toggle Navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c039314b-0b10-4831-9c6f-007c33542170",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Toggle Navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d14f29b-7692-40b7-87d0-b74e99e95609",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Toggle Navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d302894f-680f-40f2-826b-8c4c1511ad25",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.col-md-8 > .form-control",
+      "targets": [
+        ["css=.col-md-8 > .form-control", "css:finder"],
+        ["xpath=//form[@id='basicBootstrapForm']/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "96.19999694824219,51.79998779296875"
+    }, {
+      "id": "aef734c6-8d14-42e3-b68e-2aad574f8776",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.col-md-8 > .form-control",
+      "targets": [
+        ["css=.col-md-8 > .form-control", "css:finder"],
+        ["xpath=//form[@id='basicBootstrapForm']/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "96.19999694824219,51.79998779296875"
+    }, {
+      "id": "214619ec-c5e1-4bd5-8d6e-4d369a9507f9",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.col-md-8 > .form-control",
+      "targets": [
+        ["css=.col-md-8 > .form-control", "css:finder"],
+        ["xpath=//form[@id='basicBootstrapForm']/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "96.19999694824219,51.79998779296875"
+    }, {
+      "id": "3bb8ee4e-8d79-4464-9d66-26196323bbff",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//body",
+      "targets": [
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4467f6a5-a131-4868-9c22-9d234767fa95",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Practice Site",
+      "targets": [
+        ["linkText=Practice Site", "linkText"],
+        ["css=.nav > li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Practice Site')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/']", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Practice Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ef96976-86ad-4cbf-8435-699cab370315",
+      "comment": "",
+      "command": "click",
+      "target": "id=menu-icon",
+      "targets": [
+        ["id=menu-icon", "id"],
+        ["css=#menu-icon", "css:finder"],
+        ["xpath=//a[@id='menu-icon']", "xpath:attributes"],
+        ["xpath=//div[@id='headerwrap']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#mobile-menu')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c68f00a-67bd-44da-b5e7-d3d5028af599",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amount:nth-child(3)",
+      "targets": [
+        ["css=.amount:nth-child(3)", "css:finder"],
+        ["xpath=//li[@id='wpmenucartli']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'₹3,000.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2351c9cc-443e-4b55-8e67-5b3ccb03dd6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantity",
+      "targets": [
+        ["css=.quantity", "css:finder"],
+        ["xpath=//div[@id='page-34']/div/div/form/table/tbody/tr/td[5]/div", "xpath:idRelative"],
+        ["xpath=//td[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c65bf15d-7499-4d30-b967-e227615d64b4",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "name=cart[b73ce398c39f506af761d2277d853a92][qty]",
+      "targets": [
+        ["name=cart[b73ce398c39f506af761d2277d853a92][qty]", "name"],
+        ["css=.qty", "css:finder"],
+        ["xpath=//input[@name='cart[b73ce398c39f506af761d2277d853a92][qty]']", "xpath:attributes"],
+        ["xpath=//div[@id='page-34']/div/div/form/table/tbody/tr/td[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "b7323a03-691a-482a-8a3e-80b71a373ea2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "512c86a2-1c17-49f9-9c20-6c6cbcb4cda0",
+    "name": "TC3 - Deleta itens no carrinho",
+    "commands": [{
+      "id": "1dd3cfbc-3823-4174-aaea-fdad052f5f79",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.automationtesting.in/Index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b01b415-8739-4bfe-a801-b4ace778e839",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "531x679",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b46e95e-083e-42c2-afa0-24f6baaa931a",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn2",
+      "targets": [
+        ["id=btn2", "id"],
+        ["css=#btn2", "css:finder"],
+        ["xpath=//button[@id='btn2']", "xpath:attributes"],
+        ["xpath=//div[@id='abcd']/a[2]/button", "xpath:idRelative"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Skip Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "997ae0e0-1c99-47b3-a42b-0b8850fe0f10",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Toggle Navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b440991-bf24-4a64-83e6-66f1f1021a01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Toggle Navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4257b579-cba9-4e6e-83c3-ca2afd00d380",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Toggle Navigation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30752111-13e4-4431-91cc-15bf82c11a31",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Practice Site",
+      "targets": [
+        ["linkText=Practice Site", "linkText"],
+        ["css=.nav > li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Practice Site')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://practice.automationtesting.in/']", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Practice Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a911c9d4-cba3-44ae-a211-dc285820c6a6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,60.79999923706055)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5416926a-e710-4e6f-bb67-d7538c00fae5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,622.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05ea0d68-f6ed-41ab-bba0-ebac1525d744",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,960)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcc33533-16dd-4c5d-903f-1278af81d870",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerwrap",
+      "targets": [
+        ["id=headerwrap", "id"],
+        ["css=#headerwrap", "css:finder"],
+        ["xpath=//div[@id='headerwrap']", "xpath:attributes"],
+        ["xpath=//div[@id='pagewrap']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9856269-8c87-4949-a4ca-4bf6c72a0d7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=menu-icon",
+      "targets": [
+        ["id=menu-icon", "id"],
+        ["css=#menu-icon", "css:finder"],
+        ["xpath=//a[@id='menu-icon']", "xpath:attributes"],
+        ["xpath=//div[@id='headerwrap']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#mobile-menu')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc64a314-2590-4b4c-a3e4-cbd059d1a9c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.amount:nth-child(3)",
+      "targets": [
+        ["css=.amount:nth-child(3)", "css:finder"],
+        ["xpath=//li[@id='wpmenucartli']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'₹1,000.00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0e4b40a-7303-4e19-b5f8-ca6333aa27ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=×",
+      "targets": [
+        ["linkText=×", "linkText"],
+        ["css=.remove", "css:finder"],
+        ["xpath=//a[contains(text(),'×')]", "xpath:link"],
+        ["xpath=//div[@id='page-34']/div/div/form/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://practice.automationtesting.in/basket/?remove_item=b73ce398c39f506af761d2277d853a92&_wpnonce=9a620a1131')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "354c866e-5b36-4b36-9828-9248ef307bca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//a[contains(text(),'Return To Shop')]", "xpath:link"],
+        ["xpath=//div[@id='page-34']/div/div[2]/p[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://practice.automationtesting.in/shop/')])[3]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "520e123e-514e-469d-9255-7f4fe05c359b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e5fb941f-c078-4430-9656-34b06dad0c6d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://demo.automationtesting.in/Index.html", "https://demo.automationtesting.in/"],
+  "plugins": []
+}
